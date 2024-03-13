@@ -52,4 +52,6 @@ deploy:
     - ssh $SSH_USER@$VM_IPADDRESS "cd /root/chifaa/reactTest/ && CI_REGISTRY_IMAGE=$CI_REGISTRY_IMAGE DOCKER_IMAGE_TAG=$DOCKER_IMAGE_TAG docker-compose up -d"
   tags:
     - ssh-runner
+    
+    
 
