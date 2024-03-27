@@ -11,7 +11,7 @@ function Home() {
         return (
           <div>
       <div>
-      <h1>React.js Developer</h1>
+      <h1>Devops Engeneer</h1>
       
       <p>
 
